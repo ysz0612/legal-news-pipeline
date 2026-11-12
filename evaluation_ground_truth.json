@@ -1,0 +1,49 @@
+{
+  "description": "가상 샘플 검색 평가용 정답 목록. 색인 문서에는 포함하지 않는다.",
+  "synthetic_article_ids": [
+    "dcd758610c85cee200b4876aced6068bfb73f1927dadb768c292d7ed0c612554",
+    "071b81c289d6516f62cb341ac2f79a458032b44868f1fadadd462bef8752e3e6",
+    "8350c545f6ca578aa389b702ea5c858e1d0f25a25ec7cf310585df09d8ec6ade",
+    "c8363799c00eb7a2b40515600df3094cc45350179ccc5410cab2c86cd4501565",
+    "54b4220618a4bccccedecdfee7e16d2c7d8786646948ea0ddc9195cb04494dbe",
+    "36f4c79a688d283b7b4caa00e27293ab0028368119ee2ac7de5a85b35f79b5f5",
+    "ec3c1992e597296a10c94925099c263d1193c017304289aa1225c91efa067cd5",
+    "b2d9f5e9a75fe861d16bd15b9a5515df2616cdeaf2fae602dcc20de0c9e42ba6",
+    "89f096d03d250296b9fb41c0ef3f58e7a6d34d25f8116480383b80f123c2cebd",
+    "7fa6c1a7560cfb7189b7efaab25e68508d793b77480c26aea0eb5834856a0925"
+  ],
+  "queries": {
+    "학교폭력": {
+      "relevant_article_ids": [
+        "legal-2025-001",
+        "dcd758610c85cee200b4876aced6068bfb73f1927dadb768c292d7ed0c612554",
+        "071b81c289d6516f62cb341ac2f79a458032b44868f1fadadd462bef8752e3e6",
+        "8350c545f6ca578aa389b702ea5c858e1d0f25a25ec7cf310585df09d8ec6ade",
+        "c8363799c00eb7a2b40515600df3094cc45350179ccc5410cab2c86cd4501565",
+        "54b4220618a4bccccedecdfee7e16d2c7d8786646948ea0ddc9195cb04494dbe"
+      ],
+      "notes": "학교폭력 주제 6건을 관련으로 평가한다."
+    },
+    "학폭": {
+      "relevant_article_ids": [
+        "legal-2025-001",
+        "dcd758610c85cee200b4876aced6068bfb73f1927dadb768c292d7ed0c612554",
+        "071b81c289d6516f62cb341ac2f79a458032b44868f1fadadd462bef8752e3e6",
+        "8350c545f6ca578aa389b702ea5c858e1d0f25a25ec7cf310585df09d8ec6ade",
+        "c8363799c00eb7a2b40515600df3094cc45350179ccc5410cab2c86cd4501565",
+        "54b4220618a4bccccedecdfee7e16d2c7d8786646948ea0ddc9195cb04494dbe"
+      ],
+      "notes": "학교폭력과 동일한 관련 목록으로 통제 동의어 확장을 평가한다."
+    },
+    "학교폭력 조치 취소소송": {
+      "relevant_article_ids": [
+        "071b81c289d6516f62cb341ac2f79a458032b44868f1fadadd462bef8752e3e6"
+      ],
+      "notes": "단순 학교폭력 기사와 구분해 조치 취소소송을 직접 다룬 1건만 직접 관련으로 평가한다."
+    },
+    "전세사기": {
+      "relevant_article_ids": ["legal-2025-002"],
+      "notes": "기존 샘플의 전세사기 기사 1건을 관련으로 평가한다."
+    }
+  }
+}

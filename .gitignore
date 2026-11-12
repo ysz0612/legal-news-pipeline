@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+logs/
+data/rss_raw/
+data/exports/
+elasticsearch-data/
+*.dump
+*.bak
+*.zip
+.idea/
+

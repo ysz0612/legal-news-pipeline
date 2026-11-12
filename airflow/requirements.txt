@@ -1,0 +1,4 @@
+psycopg[binary]>=3.3.5
+confluent-kafka==2.6.1
+openai>=1.0.0
+python-dotenv>=1.0.0
